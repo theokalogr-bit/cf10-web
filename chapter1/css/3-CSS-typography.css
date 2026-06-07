@@ -6,6 +6,7 @@
 
 body {
     background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -115,4 +116,43 @@ th, td {
 
 th {
     background-color: #1e3a5f;color: white;
+}
+
+/* Display */
+
+.block-example {
+    background-color: lightblue;
+}
+
+.inline-example {
+    background-color: pink;
+    display: block;
+}
+
+.inline-block-example {
+    background-color: aquamarine;
+    display: inline-block;
+    width: 150px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.text-yellow {
+    color: yellow;
+    font-size: 60px;
+}
+
+.text-green {
+    color: green;
+    font-size: 50px;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
