@@ -15,6 +15,9 @@ body {
     color: white;
     padding: 20px;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 /* Header Styling */
@@ -97,6 +100,8 @@ h2 {
     height: 400px;
     /* align-items: start; */
     /* align-items: end; */
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .flex-item {
@@ -105,3 +110,59 @@ h2 {
     text-align: center;
 }
 
+.grow-1 {
+    flex-grow: 1;
+}
+
+.grow-2 {
+    flex-grow: 2;
+}
+
+.set-width {
+    width: 950px;
+}
+
+.relative-box {
+    width: 400px;
+    height: 200px;
+    background-color: lightgray;
+    padding: 20px;
+    position: relative;
+}
+
+.absolute-box {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+/* Z-Index-Styling */
+.z-container {
+    height: 250px;
+    position: relative;
+}
+
+.box {
+    width: 180px;
+    height: 180px;
+    color: white;
+    padding: 20px;
+    position: absolute;
+}
+
+.red-box {
+    background-color: red;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+.blue-box {
+    background-color: blue;
+    top: 60px;
+    left: 80px;
+    z-index: 1;
+}
