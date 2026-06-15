@@ -1,0 +1,40 @@
+:root {
+    --gov-blue: #003475;
+    --green: #006736;
+    --blue: #083aa9;
+    --lightgrey-300: #cdccce;
+}
+
+
+/* Header Styling */
+.bg-gov {
+    background-color: var(--gov-blue);
+}
+
+.border-bottom-gov {
+    border-color: var(--blue)!important;
+}
+
+.bg-footer {
+    background-color: var(--lightgrey-300);
+}
+
+.border-top-gov {
+    border-color: var(--blue)!important;
+}
+
+/* Styling Stepper */
+.stepper {
+    width: 40px;
+    height: 40px;
+    background-color: lightgray;
+    border-radius: 50%;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+
+.active-step {
+    background-color: var(--gov-blue);
+    color: white;
+}
